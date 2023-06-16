@@ -1,0 +1,65 @@
+.header {
+	background: #23A2D8;
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	width: 1040px;
+	display: flex;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	text-decoration: none;
+	margin-right: 30px;
+}
+
+.logo img {
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+}
+
+.logo p {
+	font-family: 'Russo One';
+	font-size: 2.3rem;
+	margin: 0;
+}
+
+.logo span {
+	font-family: 'Russo One';
+	font-size: 2.3rem;
+	color: #47D714;
+}
+
+.explanation {
+	font-size: 1.5rem;
+	color: #FFFFFF;
+	width: 209px;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	margin-right: 206px;
+}
+
+.telephone {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	text-decoration-line: underline;
+	color: #ffffff;
+}
+
+.telephone img {
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+}
+
+.telephone p {
+	font-size: 1.5rem;
+	margin: 0;
+}
