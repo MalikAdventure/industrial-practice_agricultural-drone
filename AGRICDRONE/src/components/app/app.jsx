@@ -1,6 +1,7 @@
 import { Component } from 'react';
 
 import Header from '../header/header.jsx';
+import Navigation from '../navigation/navigation.jsx';
 
 import './app.css';
 
@@ -13,6 +14,7 @@ class App extends Component {
 		return (
 			<div className='app'>
 				<Header />
+				<Navigation />
 			</div>
 		);
 	}

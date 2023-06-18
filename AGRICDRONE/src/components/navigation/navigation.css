@@ -1,0 +1,27 @@
+.navigation {
+  background: #47d714;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation__container {
+  width: 1040px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation__item {
+  font-weight: 700;
+  font-size: 1.7rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navigation__separation {
+  width: 60px;
+  height: 0px;
+  border: 2px solid #ffffff;
+  transform: rotate(90deg);
+}
